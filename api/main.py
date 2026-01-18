@@ -1,11 +1,5 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
-import sys
-from pathlib import Path
-
-ROOT_DIR = Path(__file__).resolve().parent.parent
-if str(ROOT_DIR) not in sys.path:
-    sys.path.insert(0, str(ROOT_DIR))
 
 from src.artifacts import load_artifacts
 app = FastAPI(title="Documents classification API")
