@@ -1,4 +1,4 @@
-from src.artifacts import load_artifacts
+from artifacts import load_artifacts
 
 model, vectorizer = load_artifacts()
 

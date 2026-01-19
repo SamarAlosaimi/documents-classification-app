@@ -1,8 +1,8 @@
-from src.data import load_data
-from src.feature import split_features_labels, build_vectorizer, fit_vectorizer,transform_text
-from src.model import get_model
-from src.evaluate import get_accuracy, get_confusion_matrix
-from src.artifacts import save_artifacts
+from data import load_data
+from feature import split_features_labels, build_vectorizer, fit_vectorizer,transform_text
+from model import get_model
+from evaluate import get_accuracy, get_confusion_matrix
+from artifacts import save_artifacts
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
